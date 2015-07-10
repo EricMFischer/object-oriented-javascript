@@ -4,12 +4,18 @@ body, html{
 
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("images/background.png");
+  background-size: 100% 100%;
   font-size: 18px;
+
 }
 
 body, a:link, a:visited, a:active{
   color: lightblue;
+}
+
+.partyTime{
+  background-image: url("images/partyTime.gif");
 }
 
 .title, .addDancerButton{
@@ -26,34 +32,82 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 
-.dancer {
-  border: 10px solid red;
-  border-radius: 10px;
-  position: absolute;
-}
-
-.big {
-  border-radius: 100px;
-  border: 100px solid green;
-}
-
 .mario {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 120px;
+  background-image: url("images/marioFront.gif");
+  background-size: 100% 100%;
   position: absolute;
+}
 
+.marioJackson {
+  height: 120px;
+  width: 120px;
+  background-image: url("images/marioJackson.gif");
+  background-size: 100% 100%;
+  position: absolute;
 }
 
 .luigi {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 120px;
+  background-image: url('images/luigiFront.gif');
+  background-size: 100% 100%;
   position: absolute;
+}
 
+.bowser {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/bowserFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.donkey {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/donkeyFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.peach {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/peachFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.toad {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/toadFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.turtle {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/turtleFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.warrio {
+  height: 120px;
+  width: 120px;
+  background-image: url('images/warrioFront.gif');
+  background-size: 100% 100%;
+  position: absolute;
 }
 
 .yoshi {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 120px;
+  background-image: url('images/yoshiFront.gif');
+  background-size: 100% 100%;
   position: absolute;
-
 }
